@@ -21,6 +21,8 @@ header{
     z-index: 1;
     width: 100%;
     height: 70px;
+    border-bottom: #555 1px solid;
+    color: #fff;
     /* background-color: antiquewhite; */
 }
 
@@ -75,11 +77,19 @@ main{
     justify-content: center;
 }
 
+.imgSlide img{
+    width: 100%;
+    height: 100%;
+}
+
 .slideBox{
-    margin-top: 70px;
+    position: absolute;
+    z-index: 1;
+    top: 140px;
     width: 60%;
     height: 50%;
     text-align: center;
+    color: #fff;
 }
 
 .slideBox h1{
@@ -160,11 +170,12 @@ footer div{
     position: absolute;
     width: 100%;
     height: 600px;
-    background-color: blanchedalmond;
+    /* background-color: blanchedalmond; */
 }
 
 .contentarea{
-    width: 1120px;
+    background-color: aliceblue;
+    width: 1080px;
     height: 100%;
     /* background-color: burlywood; */
 }
