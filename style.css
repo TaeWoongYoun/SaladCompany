@@ -22,7 +22,7 @@ header{
     width: 100%;
     height: 70px;
     border-bottom: #555 1px solid;
-    color: #fff;
+    color: #000;
     /* background-color: antiquewhite; */
 }
 
@@ -119,63 +119,41 @@ main{
 
 footer{
     width: 100%;
-    height: 100px;
-    background-color: aliceblue;
-    color: black;
-    text-align: center;
-}
-
-footer div{
-    padding: 10px;
-}
-
-.logof{
-    padding-top: 20px;
-}
-
-.footer{
-    width: 100%;
-    height: 50px;
-    background-color: aliceblue;
-    color: black;
-}
-
-.footer button{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    border: none;
-    background-color: antiquewhite;
-    text-align: center;
-    line-height: 30px;
-}
-
-.footer button img{
-    width: 100%;
-    height: 100%;
-}
-
-.footerarea{
-    width: 1080px;
-    height: 100%;
+    height: 150px;
+    background-color: #222;
+    color: aliceblue;
     text-align: center;
     line-height: 50px;
 }
 
+.foot1{
+    width: 1080px;
+    height: 50px;
+}
+
+.foot2{
+    width: 1080px;
+    height: 50px;
+}
+
+.foot3{
+    width: 1080px;
+    height: 50px;
+}
+
 .copy{
-    width: 300px;
-    height: 100%;
     float: left;
 }
 
 .sns{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100px;
-    height: 100%;
     float: right;
-    cursor: pointer;
+}
+
+.sns img{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .content{
@@ -214,37 +192,14 @@ footer div{
     height: 100%;
     cursor: pointer;
     border-radius: 15px;
-    background: linear-gradient(to bottom, aquamarine, skyblue);
-}
-
-.Box1{
-    margin-left: 0;
-}
-
-.Box3{
-    margin-right: 0;
-}
-
-.textarea{
-    text-align: center;
-    width: 90%;
-    height: 50%;
-    cursor: pointer;
-    /* background-color: aliceblue; */
-}
-
-.textarea h1{
-    padding: 25px;
-}
-
-.textarea h5{
-    font-size: 14px;
+    overflow: hidden;
+    border: 2px solid lightblue;
 }
 
 .imgBox{
-    width: 90%;
-    height: 50%;
-    opacity: 0.7;
+    width: 100%;
+    height: 250px;
+    background-color: lightblue;
 }
 
 .imgBox img{
@@ -252,26 +207,15 @@ footer div{
     height: 100%;
 }
 
-.change{
-    position: fixed;
-    bottom: 3%;
-    right: 3%;
-    width: 100px;
-    height: 30px;
-    background-color: black;
-    color: #fff;
-    font-weight: 900;
-    cursor: pointer;
+.textcard{
+    width: 100%;
+    height: 250px;
+    padding: 20px;
 }
 
-.dark{
-    background-color: black;
-}
-
-.dark p{
-    color: aliceblue;
-}
-
-.dark h2{
-    color: aliceblue;
+.textcard p{
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
