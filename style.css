@@ -20,7 +20,7 @@ header{
     position: absolute;
     z-index: 1;
     width: 100%;
-    height: 70px;
+    height: 80px;
     border-bottom: #555 1px solid;
     color: #000;
     /* background-color: antiquewhite; */
@@ -37,8 +37,8 @@ header{
     height: 100%;
     float: left;
     text-align: center;
-    line-height: 70px;
-    font-size: 24px;
+    line-height: 80px;
+    font-size: 36px;
     font-weight: 900;
 }
 
@@ -57,16 +57,20 @@ nav{
 }
 
 nav div{
+    width: 20%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    line-height: 70px;
+    font-size: 20px;
     font-weight: 900;
     transition: all 0.5s;
     cursor: pointer;
 }
 
 nav div:hover{
-    color: black;
+    border-bottom: 4px solid black;
 }
 
 main{
