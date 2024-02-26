@@ -12,10 +12,6 @@ body ul{
     padding-left: 0;
 }
 
-body li{
-    list-style: none;
-}
-
 header{
     z-index: 1;
     width: 100%;
@@ -74,11 +70,13 @@ nav div:hover{
 }
 
 main{
-    width: 1160px;
+    width: 1080px;
     height: 600px;
 }
 
 ul.list {
+    width: 1082px;
+    display: flex;
     list-style-type: none;
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
@@ -91,25 +89,13 @@ ul.list::after {
 }
 
 .tab-button {
-    width: 250px;
+    width: 270px;
     height: 50px;
-    display: block;
-    padding: 10px 20px 10px 20px;
     float: left;
-    margin-right: -1px;
-    margin-bottom: -1px;
-    color: grey;
-    text-decoration: none;
     text-align: center;
     line-height: 50px;
-    cursor: pointer;
-    font-size: 18px;
-    font-weight: 900;
-    border-right: 1px solid #ccc;
-}
-
-.tab-button:nth-child(1){
     border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
 }
 
 .orange {
@@ -126,9 +112,58 @@ ul.list::after {
     height: 100%;
 }
 
+.textBox{
+    width: 540px;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    width: 480px;
+    height: 400px;
+}
+
+.text h1{
+    text-align: center;
+    font-size: 42px;
+}
+
+.text ul{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.text li{
+    padding: 5px;
+    font-size: 18px;
+}
+
+.text h4{
+    text-align: center;
+    color: #0ba000;
+    padding: 50px;
+}
+
+.imgBox{
+    width: 540px;
+    height: 550px;
+    /* background-color: #555; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgBox img{
+    width: 80%;
+    height: 50%;
+}
+
 .show {
     display: block;
-    width: 1160px;
+    display: flex;
+    width: 1080px;
     height: 550px;
     border: 1px solid #ccc;
 }
