@@ -99,8 +99,8 @@ ul.list::after {
 }
 
 .orange {
-    color: black;
-    background-color: #0ba000;
+    color: #fff;
+    background-color: #005d3e;
 }
 
 .tab-content {
@@ -142,8 +142,9 @@ ul.list::after {
 
 .text h4{
     text-align: center;
-    color: #0ba000;
+    color: #005d3e;
     padding: 50px;
+    font-weight: 900;
 }
 
 .imgBox{
